@@ -4,7 +4,7 @@ This repository contains a Python implementation of the classic Wolf, Goat, and 
 Running the Program
 To run the program from the command line, use the following format:
 
-python a1.run --domain <domain> --algo <algorithm>
+python main.py --domain [wgc] --algo [bfs, ids]
 
 Arguments
 Domain Options (--domain):
@@ -20,8 +20,8 @@ ids: Iterative Deepening Search
 Examples
 To run BFS on the Wolf, Goat, and Cabbage problem:
 
-python a1.run --domain wgc --algo bfs
+python main.py --domain wgc --algo bfs
 
 To run IDS on the Wolf, Goat, and Cabbage problem:
 
-python a1.run --domain wgc --algo ids
+python main.py --domain wgc --algo ids
